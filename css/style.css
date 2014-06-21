@@ -42,7 +42,7 @@ p {
 }
 
 
-.content{
+.content {
 	max-width: 940px;
 	min-height: 100%;
 	background: #FFFFFF;
@@ -54,7 +54,7 @@ p {
 	max-width: 760px;
 	min-height: 100%;
 	padding: 0 5%;
-	margin: 20px auto 30px;
+	margin: 20px auto;
 
 }
 
