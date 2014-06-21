@@ -20,7 +20,7 @@
 	NAVIGATION
 	*************************/
 	nav {
-		font-size: .9em;
+		font-size: 1.3em;
 		padding-top: 1%;
 	}
 
@@ -32,6 +32,10 @@
 		width: 100%;
 		margin-left: -5%;
 		clear: none;
+	}
+
+	.social-icon {
+		display: none;
 	}
 
 
