@@ -51,8 +51,9 @@ p {
 
 #wrapper {
 	max-width: 760px;
+	min-height: 100%;
 	padding: 0 5%;
-	margin: 0 auto -4em;
+	margin: 20px auto 30px;
 
 }
 
@@ -179,7 +180,7 @@ h4 {
 	overflow: hidden;
 	width: 340px;
 	height: 215px;
-	margin: 10px;
+	margin: 10px 5px 30px 5px;
 	border: 1px solid #777;
 }
 
@@ -264,7 +265,8 @@ footer {
 	height: 6em;
 	margin: 15px 0 0 0;
 	padding-top: 10px;
-	background-color: #f1f1f1;
+/*	background-color: #f1f1f1;*/
+	background: #fbfbfa;
 	clear: both;
 	bottom: 0;
 
