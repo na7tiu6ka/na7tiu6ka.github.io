@@ -8,6 +8,7 @@ body {
 	padding: 0;
 	line-height: 1.5;
 	font-family: 'Noto Sans', sans-serif;
+	background-color: #f1f1f1;
 }
 
 p {
@@ -265,8 +266,7 @@ footer {
 	height: 6em;
 	margin: 15px 0 0 0;
 	padding-top: 10px;
-/*	background-color: #f1f1f1;*/
-	background: #fbfbfa;
+	background-color: #f1f1f1;
 	clear: both;
 	bottom: 0;
 
