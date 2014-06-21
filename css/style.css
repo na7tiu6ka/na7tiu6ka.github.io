@@ -268,7 +268,7 @@ footer {
 	padding-top: 10px;
 	background-color: #f1f1f1;
 	clear: both;
-	bottom: 0;
+	bottom: -100px;
 
 }
 
