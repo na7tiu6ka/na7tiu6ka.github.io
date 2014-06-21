@@ -52,12 +52,12 @@
 	TWO COLUMN LAYOUT
 	*************************/
 
-	#primary {
+	.primary {
 		width: 50%;
 		float: left;
 	}
 
-	#secondary {
+	.secondary {
 		width: 40%;
 		float: right;
 	}
@@ -66,13 +66,13 @@
 	TWO COLUMN LAYOUT: ABOUT PAGE
 	*************************/
 
-	#firstColumn {
+	.firstColumn {
 		width: 43%;
 		float: left;
 		margin-top: 2%;
 }
 
-	#secondColulmn {
+	.secondColulmn {
 		width: 51%;
 		float: right;
 		margin-right: 3.056%;

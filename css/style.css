@@ -3,6 +3,7 @@
 html,
 body {
 	min-width: 100%;
+	min-height: 100%;
 	margin: 0;
 	padding: 0;
 	line-height: 1.5;
@@ -51,7 +52,8 @@ p {
 #wrapper {
 	max-width: 760px;
 	padding: 0 5%;
-	margin: 0 auto -120px;
+	margin: 0 auto -4em;
+
 }
 
 
@@ -256,17 +258,15 @@ ol li {
 
 /*-------------- FOOTER --------------*/
 
-#footer {
+footer {
 	text-align: center;
 	width: 100%;
-	height: 120px;
-	margin: 10px 0 0 0;
+	height: 6em;
+	margin: 15px 0 0 0;
 	padding-top: 10px;
 	background-color: #f1f1f1;
 	clear: both;
-	overflow:hidden;
 	bottom: 0;
-
 
 }
 
