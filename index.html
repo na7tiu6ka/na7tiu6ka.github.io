@@ -8,24 +8,23 @@
 		<link rel="stylesheet" href="css/responsive.css">
 		<link rel="icon" href="img/favicon.ico">
 
-		<!-- JQUERY -->
+<!-- JQUERY -->
 
-		<!-- header -->
-			<script type="text/javascript" src="js/jquery.min.js"></script>
-			<script type="text/javascript" src="js/stellar.js"></script>
-			<script>
-				$(function(){
-					$.stellar({
-						horizontalScrolling: false,
-						verticalOffset: 50
-					});
-				});
-			</script>
+<!-- header -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/stellar.js"></script>
+	<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 50
+			});
+		});
+	</script>
+<!-- header end -->
 
-		<!-- header end -->
-
-		<!-- Sticky footer -->
-		<script type="text/javascript">
+<!-- Sticky footer -->
+	<script type="text/javascript">
 		  
 		  $(document).ready(function() {
 		   
@@ -34,34 +33,17 @@
 		   var footerTop = $('#footer').position().top + footerHeight;
 		   
 		   if (footerTop < docHeight) {
-		    $('#footer').css('margin-top', 200 + (docHeight - footerTop) + 'px');
+		    $('#footer').css('margin-top', 100 + (docHeight - footerTop) + 'px');
 		   }
 		  });
 		  
-		 </script>
-	    <!-- End sticky footer -->
+	</script>
+<!-- end sticky footer -->
 
-    	<!-- Sticky footer -->
-		<script type="text/javascript">
-			  
-			  $(document).ready(function() {
-			   
-			   var docHeight = $(window).height();
-			   var footerHeight = $('#footer').height();
-			   var footerTop = $('#footer').position().top + footerHeight;
-			   
-			   if (footerTop < docHeight) {
-			    $('#footer').css('margin-top', 150 + (docHeight - footerTop) + 'px');
-			   }
-			  });
-			  
-		</script>
-	    <!-- end sticky footer -->
-
-		<!-- END JQUERY -->
-
+<!-- END JQUERY -->
 
 	</head>
+	
 	<body>
 		<div id="body">
 			<div id="header1" data-stellar-background-ratio="1.8" data-stellar-offset-parent="true" style="background-position: 50% 0px">
