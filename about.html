@@ -24,6 +24,23 @@
 
 	<!-- header end -->
 
+	<!-- Sticky footer -->
+	<script type="text/javascript">
+	  
+	  $(document).ready(function() {
+	   
+	   var docHeight = $(window).height();
+	   var footerHeight = $('#footer').height();
+	   var footerTop = $('#footer').position().top + footerHeight;
+	   
+	   if (footerTop < docHeight) {
+	    $('#footer').css('margin-top', 500 + (docHeight - footerTop) + 'px');
+	   }
+	  });
+	  
+	 </script>
+    <!-- end sticky footer -->
+
 	<!-- END JQUERY -->
 
 
@@ -31,7 +48,7 @@
 
 <body>
 	<div id="body">
-		<div id="header2" data-stellar-background-ratio="1.8" data-stellar-offset-parent="true" style="background-position: 50% 0px">
+		<div id="header2"data-stellar-background-ratio="1.8" data-stellar-offset-parent="true" style="background-position: 50% 0px">
 
 			<nav>
 				<ul>
@@ -51,7 +68,7 @@
 			</nav>
 		</div>
 
-		<div class="wrapper space">
+		<div class="wrapper">
 			 <section class="firstColumn">
 		          <img src="img/profile-photo.jpg" alt="Photograph of Anastasija Scepak" class="profilePhoto">
 		      </section>
@@ -60,7 +77,6 @@
 		          <p>My name is Anastasija. I graduated as a bachelor in philology from Vilnius University Faculty of Humanities in my hometown Kaunas, Lithuania. The idea of becoming a web-designer was given by my boyfriend before graduating. At that moment my mind was set at becoming a translator.<br>After unsuccessful applications - my boyfriend suggested on becoming a web-designer again. All the translator jobs were in large cities and a web-designer career gave more chances on finding a job. So I agreed.<br>When I started learning - I had some basic knoweledge, so it made a little easier in understanding and learning.<br>I really enjoy working on websites and polishing up my skills.
 		          If you'd like to follow me on Twitter, my user name is <a href="http://www.twitter.com/na7tiu6ka" target="_blank">@na7tiu6ka</a>.</p>
 	        </section>
-		</div>
 
 	<div id="footer">
 			<div class="social-media">

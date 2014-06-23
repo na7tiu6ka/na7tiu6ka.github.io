@@ -58,9 +58,6 @@ p {
 
 }
 
-.space {
-	height: 490px;
-}
 
 /*-------------- SKILL CONTAINER --------------*/
 
@@ -266,7 +263,6 @@ ol li {
 #footer {
 	text-align: center;
 	width: 100%;
-	z-index: 10;
 	margin: 15px 0 0 0;
 	padding-top: 10px;
 	background-color: #f1f1f1;

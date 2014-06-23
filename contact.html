@@ -25,6 +25,27 @@
 
 	<!-- header end -->
 
+		<!-- header end -->
+
+	<!-- Sticky footer -->
+
+	<script type="text/javascript">
+	  
+	  $(document).ready(function() {
+	   
+	   var docHeight = $(window).height();
+	   var footerHeight = $('#footer').height();
+	   var footerTop = $('#footer').position().top + footerHeight;
+	   
+	   if (footerTop < docHeight) {
+	    $('#footer').css('margin-top', 500 + (docHeight - footerTop) + 'px');
+	   }
+	  });
+	  
+	 </script>
+
+    <!-- End sticky footer -->
+
 	<!-- END JQUERY -->
 
 	</head>
@@ -50,7 +71,7 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="wrapper space">
+		<div class="wrapper jq-ez-sticky-footer-content-expander">
 	        <section class="primary">
 	          <h3>General Information</h3>
 	          <p>If you have any questions, don't hesitate to contact me.</p>
