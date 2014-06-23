@@ -51,7 +51,7 @@ p {
 }
 
 .wrapper {
-	max-width: 770px;
+	max-width: 740px;
 	min-height: 100%;
 	padding: 0 5%;
 	margin: 20px auto;
@@ -125,7 +125,6 @@ figcaption {
 	background: url('../img/beach.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	position: relative;
 	border-bottom: 2px solid #f1f1f1;
 }
 
@@ -262,7 +261,7 @@ ol li {
 
 #footer {
 	text-align: center;
-	width: 100%;
+	max-width: 100%;
 	margin: 15px 0 0 0;
 	padding-top: 10px;
 	background-color: #f1f1f1;
