@@ -51,6 +51,14 @@ p {
 }
 
 .wrapper {
+	max-width: 860px;
+	min-height: 100%;
+	padding: 0 5%;
+	margin: 20px auto;
+
+}
+
+.wrapper2 {
 	max-width: 740px;
 	min-height: 100%;
 	padding: 0 5%;
