@@ -129,7 +129,7 @@ figcaption {
 }
 
 .aboutWrap {
-	max-width: 100%;
+	max-width: 850px;
 	min-height: 100%;
 	padding: 0 5%;
 	margin: 10px auto;
@@ -139,7 +139,7 @@ figcaption {
 /* profile photo */
 .profilePhoto {
 	display: block;
-	max-width: 250px;
+	max-width: 200px;
 	margin: 0 auto;
 	border-radius: 100%;
 	border: 10px #F4F4F4 solid;
