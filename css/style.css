@@ -51,7 +51,7 @@ p {
 }
 
 .wrapper {
-	max-width: 740px;
+	max-width: 750px;
 	min-height: 100%;
 	padding: 0 5%;
 	margin: 20px auto;
@@ -181,8 +181,22 @@ h4 {
 	color: #fff;
 }
 
-.dashProjects {
-	text-align: center;
+.dashProjects img {
+	border: 2px solid #7A7A7A;
+	}
+
+	/* Dash Project picture hover effect */
+.dashProjects img {
+	-webkit-filter: grayscale(50%);
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+		transition: all .3s linear;
+}
+ 
+.dashProjects img:hover {
+  -webkit-filter: grayscale(0%);
 }
 
 
