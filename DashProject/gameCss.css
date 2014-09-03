@@ -1,0 +1,38 @@
+body {
+    width: 700px;
+    text-align: center;
+    font-family: 'Arvo';
+    font-size: 20px;
+    background: #e6eaf0;
+    border: 2px solid #000;
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  button {
+    margin: 40px;
+  }
+
+  input {
+    font-size: 24px;
+  }
+
+  form {
+    margin: 30px;
+  }
+  
+  .fill {
+    background: white;
+    color: red;
+    border-bottom: 2px black solid;
+    font-family: 'Lobster';
+    padding: 0 6px;
+    margin: 4px;
+
+  }
