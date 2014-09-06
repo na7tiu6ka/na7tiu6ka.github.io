@@ -65,7 +65,7 @@ p {
 	width: 65%;
 	margin: 0 auto;
 	padding-top: 1%;
-	padding-bottom: 17%;
+	padding-bottom: 15%;
 	background: #fbfbfa;
 }
 
@@ -92,19 +92,19 @@ figcaption {
 	font-weight: 600;
 }
 
-.mint {
-	background-color: #c3fde1;
+.blueish {
+	background-color: #B3C8E2;
 }
 
-.lavander {
-	background-color: #d8d7de;
+.lightBlue {
+	background-color: #E2EAF7;
 }
 
-.sand {
-	background-color: #f7f0e0;
+.lightGray {
+	background-color: #D6D5D5;
 }
 
-.caption1 {
+/*.caption1 {
 	color: #0d5e6c;
 }
 
@@ -114,7 +114,7 @@ figcaption {
 
 .caption3 {
 	color: #753040;
-}
+}*/
 
 /*-------------- ABOUT PAGE --------------*/
 
