@@ -11,6 +11,7 @@ body {
 	background-color: #f1f1f1;
 }
 
+
 p {
 	color: #4A4A4A;
 	font-size: 1.0089em;
@@ -39,6 +40,10 @@ p {
 	background-attachment: fixed;
 	position: relative;
 	border-bottom: 2px solid #f1f1f1;
+}
+
+span {
+	font-family: 'Dancing Script', cursive;
 }
 
 
@@ -163,24 +168,6 @@ section {
 	border-bottom: 2px solid #f1f1f1;
 }
 
-
-.clearfix {
-	display:block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
-
-.details {
-	margin: 10px 15px;
-}
-
-h4 {
-	line-height:150%;
-	letter-spacing: .15em;
-	color: #fff;
-}
-
 .dashProjects img {
 	border: 2px solid #7A7A7A;
 	}
@@ -202,7 +189,6 @@ h4 {
 
 
 /*-------------- CONTACT PAGE --------------*/
-
 
 #header4 {
 	min-width: 100%;
@@ -285,13 +271,13 @@ ol li {
 
 h1, h2 {
 	text-align: center;
-	line-height: 1.2;
+	line-height: 1;
 }
 
 h1 {
 	font-size: 2em;
 	color: #111;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Duru Sans', sans-serif;
 }
 
 h2 {
@@ -334,7 +320,7 @@ nav a {
 
 a {
 	text-decoration: none;
-	font-family:'Open Sans', sans-serif;;
+	font-family:'Noto Sans', sans-serif;;
 }
 
 ul li {
