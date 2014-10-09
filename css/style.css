@@ -253,9 +253,7 @@ textarea {
 }
 
 .socialMedia {
-	float: right;
 	margin: 20px 1px;
-	padding-right: 20%
 }
 
 .socialMedia img {
@@ -272,10 +270,8 @@ textarea {
 
 .copyright {
 	margin-top: 2%;
-	float: left;
 	font-size: 0.8em;
 	color: #777777;
-	padding-left: 25%;
 
 }
 
@@ -330,12 +326,12 @@ nav a:hover {
 	*************************/
 
 .firstColumn {
-		width: 40%;
+		width: 45%;
 		float: left;
 	}
 
 	.secondColulmn {
-		width: 55%;
+		width: 45%;
 		float: right;
 		margin-right: 3.056%;
 	}
