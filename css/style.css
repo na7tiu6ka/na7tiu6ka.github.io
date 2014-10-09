@@ -108,7 +108,7 @@ h3 {
 
 .about1 {
 	margin: 1% auto;
-	width: 80%;
+	max-width: 80%;
 }
 
 .aboutMe h2 {
@@ -117,8 +117,8 @@ h3 {
 }
 
 .profilePhoto {
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	border: 2px solid #595959;
 	border-radius: 100%;
 }
@@ -325,22 +325,22 @@ nav a:hover {
 	TWO COLUMN LAYOUT: ABOUT SECTION
 	*************************/
 
-	.firstColumn {
-		width: 42%;
-		float: left;
-		margin-top: 2%;
-	}
+.firstColumn {
+	width: 20em;
+	float: left;
+	margin-bottom: 5em;
+}
 
-	.secondColulmn {
-		width: 53%;
-		float: right;
-		margin-right: 3.056%;
-	}
+.secondColulmn {
+	width: 40em;
+	float: right;
+	margin-right: 5%;
+}
 
-	.firstColumn,
-	.secondColulmn {
-		margin-bottom: 15px;
-	}
+.firstColumn,
+.secondColulmn {
+	margin-bottom: 15px;
+}
 
 }
 
