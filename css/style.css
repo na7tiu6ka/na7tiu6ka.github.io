@@ -174,7 +174,7 @@ section {
 .btn-submit {
 	width: 150px;
 	float: left;
-	margin: 2% 43%;
+	margin: 2% 25%;
 	border: 0;
 	padding: 10px 25px;
 	color: #4D4D4D;
@@ -325,33 +325,24 @@ nav a:hover {
 	TWO COLUMN LAYOUT: ABOUT SECTION
 	*************************/
 
-.firstColumn {
-		width: 45%;
+	.firstColumn {
+		width: 42%;
 		float: left;
+		margin-top: 2%;
 	}
 
 	.secondColulmn {
-		width: 45%;
+		width: 53%;
 		float: right;
 		margin-right: 3.056%;
 	}
 
 	.firstColumn,
 	.secondColulmn {
-		margin-bottom: 55px;
+		margin-bottom: 15px;
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
