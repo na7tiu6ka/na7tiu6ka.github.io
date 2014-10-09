@@ -33,8 +33,7 @@ h3 {
     color: #FBFCFE;
     border: 5px solid #FBFCFE;
     padding: .4em 2em;
-	z-index: 2;
-
+   	z-index: 2;
 }
 
 .quote {
@@ -103,7 +102,6 @@ h3 {
 	padding: 10px 0;
 	background-color: #FFFFFF;
 	border-bottom: 1px solid #595959;
-
 }
 
 .about1 {
