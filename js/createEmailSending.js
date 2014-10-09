@@ -6,7 +6,8 @@ function createEmailSending() {
         var messageFieldText = $('#message').val().replace(/\r?\n/g, '<br />');
         var myFullEmail = $('.mea').html().trim();
         $('.btn-submit').attr('disabled', 'disabled');
-        
+        $('.btn-submit-txt').hide();
+        $('.btn-submit-img').show();
         $.ajax({
             type: 'POST',
             url: 'https://mandrillapp.com/api/1.0/messages/send.json',
@@ -25,7 +26,8 @@ function createEmailSending() {
                 }
             }
         }).done(function(response) {
-            alert('Your email has been successfully sent!'); // if you're into that sorta thing
+            $('.btn-submit-txt').show();
+            $('.btn-submit-img').hide();
             setTimeout(function() {
       			$('input[type="submit"]').removeAttr('disabled');
 			}, 2000);
