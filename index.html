@@ -1,113 +1,227 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title>Anastasija Scepak | Web Developer/Designer</title>
 		<link rel="stylesheet" href="css/normalize.css">
-		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Duru+Sans' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<link rel="icon" href="img/favicon.ico">
-
-<!-- JQUERY -->
-
-<!-- header -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/stellar.js"></script>
-	<script>
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 50
-			});
-		});
-	</script>
-<!-- header end -->
-
-<!-- Sticky footer -->
-	<script type="text/javascript">
-		  
-		  $(document).ready(function() {
-		   
-		   var docHeight = $(window).height();
-		   var footerHeight = $('#footer').height();
-		   var footerTop = $('#footer').position().top + footerHeight;
-		   
-		   if (footerTop < docHeight) {
-		    $('#footer').css('margin-top', 100 + (docHeight - footerTop) + 'px');
-		   }
-		  });
-		  
-	</script>
-<!-- end sticky footer -->
-
-<!-- END JQUERY -->
+		<link rel="icon" href="img/icon.ico">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/stellar.js"></script>
 
 	</head>
-
 	<body>
-		<div id="body">
-			<div id="header1" data-stellar-background-ratio="2" data-stellar-offset-parent="true" style="background-position: 35% 0px">
-				<nav>
-					<ul>
-						<li>
-							<a href="index.html" class="selected">Home</a>
-						</li>
-						<li>
-							<a href="about.html">About me</a>
-						</li>
-						<li>
-							<a href="work.html">Work</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
+		<div id="header">
+			<div id="top"></div>
+			<div class="layer">
+				<div class="coverNav">
+					<div class="borderNav">
+						<h1>Stacie's Personal Portfolio</h1>
+						<h2 class="quote">The journey of a thousand miles begins with one step. &copy; Lao Tzu</h2>
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#work">Work</a><li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="overlay"></div>
 			</div>
-				<div class="content">
-					<h1>Stacie's Personal Portfolio</h1>
-					<h2><span>The journey of a thousand miles begins with one step. &copy; Lao Tzu</span></h2>
-					<p>Hello, I'm Anastasija Scepak a web developer/desginer, curently located in United Kingdom. I'm a passionate web designer who likes to think out of the box and use my imagination while drafting, sketching and designing beautiful yet simple websites.</p>
-				</div>
-
-				<div class="skillContainer">
-					<div class="entry">
-						<figure class="blueish">
-							<img src="img/skills/html.png"><!-- <figcaption class="caption1">HTML</figcaption> -->
-						</figure>
-					</div>
-					<div class="entry">
-						<figure class="lightBlue">
-							<img src="img/skills/css.png"><!-- <figcaption class="caption2">CSS</figcaption> -->
-						</figure>
-					</div>
-					<div class="entry">
-						<figure class="lightGray">
-							<img src="img/skills/js.png"><!-- <figcaption class="caption3">JavaScript</figcaption> -->
-						</figure>
-					</div>
-				</div>
-
-		<div id="footer">
-			<div class="social-media">
-					<a href="https://twitter.com/na7tiu6ka" target="_blank"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
-			        <a href="https://www.facebook.com/anastasija.scepak" target="_blank"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"></a>
-			        <a href="https://plus.google.com/u/0/+AnastasijaScepak" target="_blank"><img src="img/googleplus.png" alt="Google+ Logo" class="social-icon"></a>
-			        <a href="https://www.linkedin.com/profile/view?id=295708852" target="_blank"><img src="img/linkedin.png" alt="LinkedIn Logo" class="social-icon"></a>
-			        <a href="http://instagram.com/na7tiu6ka" target="_blank"><img src="img/instagram.png" alt="Instagram Logo" class="social-icon"></a>
-			    </div>
-			    <div class="copyright">
-			    <p>&copy; 2014 Anastasija Scepak</p>
-				</div>
 		</div>
 
-		</div>
-	<!-- vector icons from http://www.shutterstock.com/
-	ww.iconsdownload.net
-	http://www.flaticon.com/ 
+		<div id="wrapper">
+			<div id="about">
+				<div class="about1">
+					<section class="firstColumn">
+						<img src="img/profile-photo.jpg" alt="Photograph of Anastasija Scepak" class="profilePhoto">
+					</section>
 
-	http://markdalgleish.com/projects/stellar.js/	-->
+					<section class="secondColumn">
+						<div class="aboutMe"><h2>About me</h2></div>
+						<p>Hello, I'm Anastasija Scepak a web developer/desginer, curently located in United Kingdom. I'm a passionate web designer who likes to think out of the box and use my imagination while drafting, sketching and designing beautiful and interesting websites.
+						<br>
+						<br>I've graduated as a bachelor in philology from Vilnius University (Kaunas Faculty of Humanities) in 2013. The idea of becoming a web designer was given by my boyfriend before graduating. But at that moment my mind was set at becoming a translator. My first experience in making a website was when I was 13 years old. I made my first website dedicated to Harry Potter. To tell the truth - I didn't know what I was doing. Everything was made in HTML without using CSS or JavaScript. In a word - there was no decent design. But at that moment I was proud of myself. That experience really helped me a lot while I was and still am learning about web design and web development. I really enjoy working on websites, polishing up my skills and learn something new.
+						<br>If you'd like to follow me on Twitter, my user name is <a href="http://www.twitter.com/na7tiu6ka" target="_blank">@na7tiu6ka</a>.</p>
+					</section>
+				</div>
+			</div>
+
+			<div id="work">
+				<div class="work1">
+					<p></p>
+				</div>
+			</div>
+
+			<div id="contact">
+				<div class="contact1">
+					<h2>Contact me</h2>
+					<form action="contact.php" method="post">
+						<p>
+							<label for="name">Name:</label>
+							<input name="name" id="name" type="text" class="required">
+						</p>
+
+						<p>
+							<label for="email">Email:</label>
+							<input name="email" id="email" type="text" class="required"> 
+						</p>
+
+						<p>
+							<label for="subject">Subject:</label>
+							<input name="subject" id="subject" type="text"> 
+						</p>
+
+						<p>
+							<label for="message">Message:</label>
+							<textarea name="message" id="message" class="required"></textarea> 
+						</p>
+
+						<p class="submit">
+							<input type="submit" value="Submit" class="btn-submit">
+						</p>
+					</form>
+				</div>
+			</div>
+
+			<div id="footer">
+				<div class="socialMedia">
+						<a href="https://www.linkedin.com/profile/view?id=295708852" target="_blank"><img src="img/icons/linkedin.png"></a>
+						<a href="https://plus.google.com/u/0/+AnastasijaScepak" target="_blank"><img src="img/icons/googleplus.png"></a>
+						<a href="https://www.facebook.com/anastasija.scepak" target="_blank"><img src="img/icons/facebook.png"></a>
+						<a href="https://twitter.com/na7tiu6ka" target="_blank"><img src="img/icons/twitter.png"></a>
+						<a href="http://instagram.com/na7tiu6ka" target="_blank"><img src="img/icons/instagram.png"></a>
+					</div>
+
+				<div class="copyright">
+				    <p>&copy; 2014 Anastasija Scepak</p> 
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- Cover Blur Paralax -->
+		<script>
+
+		/* Cache */
+			var $content = $('#header .coverNav')
+			  , $blur    = $('#header .overlay')
+			  , wHeight  = $(window).height();
+
+			$(window).on('resize', function(){
+			  wHeight = $(window).height();
+			});
+
+			/* requestAnimationFrame Shim */
+			window.requestAnimFrame = (function()
+			{
+			  return  window.requestAnimationFrame       ||
+			          window.webkitRequestAnimationFrame ||
+			          window.mozRequestAnimationFrame    ||
+			          function( callback ){
+			            window.setTimeout(callback, 1000 / 60);
+			          };
+			})();
+
+			/*  Scroller */
+			function Scroller()
+			{
+			  this.latestKnownScrollY = 0;
+			  this.ticking            = false;
+			}
+
+			Scroller.prototype = {
+			  /* Initialize */
+			  init: function() {
+			    window.addEventListener('scroll', this.onScroll.bind(this), false);
+			  },
+			  /* Capture Scroll */
+			  onScroll: function() {
+			    this.latestKnownScrollY = window.scrollY;
+			    this.requestTick();
+			  },
+
+			  /* Request a Tick */
+			  requestTick: function() {
+			    if( !this.ticking ) {
+			      window.requestAnimFrame(this.update.bind(this));
+			    }
+			    this.ticking = true;
+			  },
+
+			  /* Update */
+			  update: function() {
+			    var currentScrollY = this.latestKnownScrollY;
+			    this.ticking       = false;
+			    
+			    /*  Do The Dirty Work Here */
+			    var slowScroll = currentScrollY / 4
+			      , blurScroll = currentScrollY * 2;
+			    
+			    $content.css({
+			      'transform'         : 'translateY(-' + slowScroll + 'px)',
+			      '-moz-transform'    : 'translateY(-' + slowScroll + 'px)',
+			      '-webkit-transform' : 'translateY(-' + slowScroll + 'px)'
+			    });
+			    
+			    $blur.css({
+			      'opacity' : blurScroll / wHeight
+			    });
+			  }
+			};
+
+			/*  Attach!  */
+			var scroller = new Scroller();  
+			scroller.init();
+
+
+		</script>
+		<!-- Cover Blur Paralax End -->
+
+		<!-- Valid E-mail. Contact Forn -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/validEmail.js"></script>
+		<script>
+			var $submit = $(".submit input");
+			var $required = $(".required")
+			function containsBlanks() {
+				var blanks = $required.map(function(){ 
+					return $(this).val() == ""});
+				//return blanks.sort().pop();
+				return $.inArray(true, blanks) != -1;
+			}
+
+
+			function requiredFilledIn() {
+				if(containsBlanks() || !$("#email").validEmail())
+					$submit.attr("disabled", "disabled");
+				else $submit.removeAttr("disabled");
+			}
+
+			$("form span").hide();
+			$("input, textarea").focus(function(){
+				$(this).next().fadeIn("slow");
+
+			}).blur(function(){
+				$(this).next().fadeOut("slow");
+			}).keyup(function(){
+				//Check all required fields.
+				requiredFilledIn();
+			});
+			
+			$("#email").validEmail({on:"keyup", success:function(){
+				$(this).next().removeClass("error").addClass("valid");
+			}, failure: function() {
+				$(this).next().removeClass("valid").addClass("error");
+			}}); 
+			requiredFilledIn();
+		</script>
+		<!-- Valid E-mail. Contact Forn END -->
+
 
 
 	</body>
