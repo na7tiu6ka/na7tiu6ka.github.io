@@ -107,6 +107,7 @@ h3 {
 .about1 {
 	margin: 1% auto;
 	max-width: 80%;
+	height: 350px;
 }
 
 .aboutMe h2 {
@@ -132,16 +133,19 @@ section {
 /* ------------- WORK SECTION ------------- */
 
 #work {
-	padding: 10px 0;
+	width: 100%;
+	padding: 50px 0;
 	background-color: #F2F3F4;
 	border-bottom: 1px solid #595959;
+	height: 310px;
+
 }
 
 .work1 {
-	width: 90%;
-	height: 400px;
-	margin: 1% auto;
+	margin: 0 10%;
+	height: 35%;
 }
+
 
 /* ------------- CONTACT SECTION ------------- */
 
@@ -161,7 +165,7 @@ section {
 	margin: 1% auto;
 	width: 85%;
 	text-align: center;
-	height: 425px;
+	overflow: hidden;
 }
 
 .contact1 h2 {
