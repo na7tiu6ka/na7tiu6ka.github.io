@@ -138,7 +138,8 @@ section {
 }
 
 .work1 {
-	width: 900px;
+	width: 90%;
+	height: 400px;
 	margin: 1% auto;
 }
 
@@ -160,6 +161,7 @@ section {
 	margin: 1% auto;
 	width: 85%;
 	text-align: center;
+	height: 425px;
 }
 
 .contact1 h2 {
