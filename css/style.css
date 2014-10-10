@@ -107,7 +107,7 @@ h3 {
 .about1 {
 	margin: 1% auto;
 	max-width: 80%;
-	height: 350px;
+	height: 100%;
 }
 
 .aboutMe h2 {
@@ -137,7 +137,7 @@ section {
 	padding: 50px 0;
 	background-color: #F2F3F4;
 	border-bottom: 1px solid #595959;
-	height: 310px;
+	height: 100%;
 
 }
 
