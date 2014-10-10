@@ -21,7 +21,7 @@ function createEmailSending() {
                         'type': 'to'
                     }],
                     'autotext': 'true',
-                    'subject': 'Contact from portfolio site',
+                    'subject': 'Message from portfolio site',
                     'html': messageFieldText
                 }
             }
