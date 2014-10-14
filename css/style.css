@@ -48,6 +48,8 @@ h3 {
 	position: relative;
 }
 
+
+
 /* ------------- HEADER SECTION ------------- */
 
 #header {
@@ -116,8 +118,7 @@ h3 {
 }
 
 .profilePhoto {
-	width: 280px;
-	height: 280px;
+	max-width: 100%;
 	border: 2px solid #595959;
 	border-radius: 100%;
 }
@@ -250,7 +251,6 @@ textarea {
 	background-color:#b0240f;
 	color: #4D4D4D;
 }
-
 
 
 /* ------------- FOOTER ------------- */

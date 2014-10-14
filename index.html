@@ -8,6 +8,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
+		<!-- Flex Slider CSS -->
+		<link rel="stylesheet" href="carousel/css/flexslider.css" type="text/css" media="screen" />
+
 		<link rel="icon" href="img/icon.ico">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/stellar.js"></script>
@@ -15,6 +18,8 @@
 		<script type="text/javascript" src="js/blur.js"></script>
 		<script type="text/javascript" src="js/validateForm.js"></script>
 		<script type="text/javascript" src="js/createEmailSending.js"></script>
+		<!-- Modernizr -->
+  		<script src="/carousel/js/modernizr.js"></script>
 		<!-- Scroll, Cover Blur, Form Validation, Email Sending -->
 		<script>
 		$(document).ready(
@@ -24,8 +29,7 @@
 				createFormValidation();
 				createEmailSending();
 			}
-		);
-			
+		);	
 		</script>
 
 	</head>
@@ -71,11 +75,29 @@
 
 			<div id="work">
 				<div class="work1">
-					<div id="slides">
-						<a href="work/calculator/calculator.html" target="_blank"><img src="work/calculator/img/calculator.png"></a>
-						<a href="work/dashProject/game.html" target="_blank"><img src="work/dashProject/img/game.png"></a>
-<!-- 						<a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-business-website" target="_blank"><img src="work/dashProject/img/purrfect.png"></a>
-						<a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-blog-theme" target="_blank"><img src="work/dashProject/img/blog.png"></a>	 -->
+					<div class="flexslider">
+  						<ul class="slides">
+  							<!-- <li>
+  								<a href="work/animated/animated.html" target="_blank"><img src="work/animated/img/positive.png"></a>
+  							</li> -->
+  							<li>
+  								<a href="work/orbit/orbit.html" target="_blank"><img src="work/orbit/img/orbit.png"></a>
+  							</li>
+						    <li>
+							    <a href="work/calculator/calculator.html" target="_blank"><img src="work/calculator/img/calculator.png"></a>
+						    </li>
+						    <li>
+							    <a href="work/dashProject/game.html" target="_blank"><img src="work/dashProject/img/game.png"></a>
+						    </li>
+						    <li>
+								<a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-blog-theme" target="_blank"><img src="work/dashProject/img/blog.png"></a>
+							</li>
+						    <li>
+							    <a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-business-website" target="_blank"><img src="work/dashProject/img/purrfect.png"></a>
+						    </li>
+						    
+						    <!-- items mirrored twice, total of 12 -->
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -124,5 +146,37 @@
 		<div class="mea" style="visibility: hidden">
 			&#097;&#110;&#097;&#115;&#116;&#097;&#115;&#105;&#106;&#097;&#046;&#115;&#099;&#101;&#112;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 		</div>
+
+		  <!-- FlexSlider -->
+		  <script defer src="carousel/js/jquery.flexslider.js"></script>
+
+		  <script>
+		    $(function(){
+		      SyntaxHighlighter.all();
+		    });
+		    $(window).load(function(){
+		      $('.flexslider').flexslider({
+		        animation: "slide",
+		        animationLoop: false,
+		        itemWidth: 210,
+		        itemMargin: 5,
+		        pausePlay: true,
+		        start: function(slider){
+		          $('body').removeClass('loading');
+		        }
+		      });
+		    });
+		  </script>
+
+		<!-- Syntax Highlighter -->
+		<script type="text/javascript" src="carousel/js/shCore.js"></script>
+		<script type="text/javascript" src="carousel/js/shBrushXml.js"></script>
+		<script type="text/javascript" src="carousel/js/shBrushJScript.js"></script>
+
+		<!-- Optional FlexSlider Additions -->
+		<script src="carousel/js/jquery.easing.js"></script>
+		<script src="carousel/js/jquery.mousewheel.js"></script>
+		<script defer src="carousel/js/demo.js"></script>
+
 	</body>
 </html>
