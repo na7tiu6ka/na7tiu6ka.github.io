@@ -24,7 +24,7 @@
 *********************************/
 /* Font-face Icons */
 @font-face {
-	font-family: 'flexslider-icon';
+	font-family: flexslider-icon;
 	src:url('../carousel/fonts/flexslider-icon.eot');
 	src:url('../carousel/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
 		url('../ca/fonts/flexslider-icon.woff') format('woff'),
@@ -171,7 +171,7 @@ html[xmlns] .slides {
 }
 
 .flex-direction-nav a:before  { 
-	font-family: "flexslider-icon"; 
+	font-family: flexslider-icon; 
 	font-size: 40px; line-height:1; 
 	display: inline-block; 
 	content: '\f001'; }
@@ -194,7 +194,7 @@ html[xmlns] .slides {
 	color: #000; }
 
 .flex-pauseplay a:before  { 
-	font-family: "flexslider-icon"; 
+	font-family: flexslider-icon; 
 	font-size: 20px; 
 	display: inline-block; 
 	content: '\f004';
