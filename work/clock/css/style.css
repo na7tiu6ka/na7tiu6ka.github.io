@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-	font: 3.5em normal 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: 'Lilita One', cursive;
+	font-size: 3.5em normal;
 	padding: 20px;
 	margin: 0;
 	text-align: center;
@@ -18,6 +19,7 @@ h1 {
 }
 
 .clock {
+	font-family: 'Lilita One', cursive;
 	width: 800px;
 	margin: 0 auto;
 	padding: 30px;
@@ -27,7 +29,7 @@ h1 {
 }
 
 #Date {
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: 'Lilita One', cursive;
 	text-align: center;
 	font-size: 35px;
 	text-shadow: 0 0 5px #005CE6;
@@ -50,81 +52,45 @@ ul li {
 
 #point {
 	position: relative;
-	-moz-animation: point 1s ease infinite;
-	-webkit-animation: point 1s ease infinite;
-	-o-animation: point 1s ease infinite;
-	animation: point 1s ease infinite;
+	-webkit-animation-name: mymove;
+	-moz-animation: mymove 1s ease infinite;
+	-webkit-animation: mymove 1s ease infinite;
+	-o-animation: mymove 1s ease infinite;
+	animation: mymove 1s ease infinite;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 /* Animation */
 
-@keyframes point {
-	0% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+@keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 
-	50% {
-		opacity: 0;
-		text-shadow: none;
-	}
+	50% { opacity: 0; text-shadow: none; }
 
-	100% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 }
 
-@-webit-keyframes point {
-	0% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+@-webkit-keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 
-	50% {
-		opacity: 0;
-		text-shadow: none;
-	}
+	50% { opacity: 0; text-shadow: none; }
 
-	100% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 }
 
-@-moz-keyframes point {
-	0% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+@-moz-keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 
-	50% {
-		opacity: 0;
-		text-shadow: none;
-	}
+	50% { opacity: 0; text-shadow: none; }
 
-	100% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
-
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 }
 
-@-o-keyframes point {
-	0% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+@-o-keyframes mymove {
+	0% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 
-	50% {
-		opacity: 0;
-		text-shadow: none;
-	}
+	50% { opacity: 0; text-shadow: none; }
 
-	100% {
-		opacity: 1.0;
-		text-shadow: 0 0 20px #005CE6;
-	}
+	100% { opacity: 1.0; text-shadow: 0 0 20px #005CE6; }
 }
