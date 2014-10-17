@@ -10,11 +10,13 @@
 		<link rel="stylesheet" href="css/style.css">
 		<!-- Flex Slider CSS -->
 		<link rel="stylesheet" href="carousel/css/flexslider.css" type="text/css" media="screen" />
+		<!-- for srcoll to top -->
 
 		<link rel="icon" href="img/icon.ico">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/stellar.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
 		<script type="text/javascript" src="js/blur.js"></script>
 		<script type="text/javascript" src="js/validateForm.js"></script>
 		<script type="text/javascript" src="js/createEmailSending.js"></script>
@@ -32,10 +34,15 @@
 		);	
 		</script>
 
+		<script>
+		$(function(){
+			  $.scrollUp();
+		});
+		</script>
+
 	</head>
 	<body>
 		<div id="header">
-			<div id="top"></div>
 			<div class="layer">
 				<div class="coverNav">
 					<div class="borderNav">
