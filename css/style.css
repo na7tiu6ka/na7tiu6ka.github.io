@@ -43,7 +43,7 @@ h3 {
 }
 
 #wrapper {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -132,6 +132,7 @@ h3 {
 }
 
 .profilePhoto {
+	display: block;
 	width: 240px;
 	height: 240px;
 	margin: 0 0 60px 0;
