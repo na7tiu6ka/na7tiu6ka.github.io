@@ -73,8 +73,7 @@ h3 {
 	height: 550px;
 	background: url('../img/cover.jpg') center no-repeat;
 	position: relative;
-	background-size: cover; 
-	position: relative;
+	background-size: cover;
 	border-bottom: 2px solid #595959;
 }
 
