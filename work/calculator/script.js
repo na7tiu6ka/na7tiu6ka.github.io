@@ -1,68 +1,54 @@
-function sum(first, second) {
-    return first + second;
-}
-
-function substract(first, second) {
-    return first - second;
-}
-
-function divide(first, second) {
-    return first / second;
-}
-
-function multiply(first, second) {
-    return first * second;
-}
-
-var firstValue = "";
-var secondValue = "";
-var operator = "";
-
-$(document).ready(function() {
-    $("#operators a:not('#equal')").click(function() {
-        operator = $(this).html();
-        secondValue = firstValue;
-        firstValue = "";
-        $("#total").html(firstValue);
-    });
-    
-    $("#numbers a").click(function() {
-        firstValue = firstValue + $(this).html();
-        $("#total").html(firstValue);
-    });
-    
-    $("#allClear").click(function() {
-        firstValue = "";
-        secondValue = "";
-        operator = "";
-        $("#total").html(firstValue);
-    });
-    
-    $("#equal").click(function() {
-        var result = "";
-        firstValue = parseInt(firstValue);
-        secondValue = parseInt(secondValue);
-        switch (operator)
-        {
-            case "+":
-                result = sum(firstValue, secondValue);
-                break;
-            case "-":
-                result = substract(secondValue, firstValue);
-                break;
-            case "/":
-                result = divide(secondValue, firstValue);
-                break;
-            case "*":
-                result = multiply(firstValue, secondValue);
-                break;
+$(document).ready(function () {
+    var testNumLength = function (number) {
+        if (number.length > 9) {
+            totalDiv.text(number.substr(number.length - 9, 9));
+            if (number.length > 15) {
+                number = "";
+                totalDiv.text("Err");
+            }
         }
-        firstValue = result;
-        secondValue = "";
-        $("#total").html(result);
+    };
+    var number = "";
+    var newNumber = "";
+    var operator = "";
+    var totalDiv = $("#total");
+    totalDiv.text("0");
+    $(".numbers > a").not(".clear, .allClear").click(function () {
+        number += $(this).text();
+        totalDiv.text(number);
+        testNumLength(number);
     });
-    
+
+    $(".operators > a").not(".equal, .allClear, .clear").click(function () {
+        operator = $(this).text();
+        newNumber = number;
+        number = "";
+        totalDiv.text(newNumber); // if it's not going to work - change back to "0".
+    });
+
+    $(".clear, .allClear").click(function () {
+        number = "";
+        totalDiv.text("0");
+        if ($(this).attr("class") === "allClear") {
+            newNumber = "";
+        }
+    });
+
+    $(".equal").click(function () {
+        if (operator === "+") {
+            number = (parseInt(number, 10) + parseInt(newNumber, 10)).toString(10);
+        } else if (operator === "-") {
+            number = (parseInt(newNumber, 10) - parseInt(number, 10)).toString(10);
+        } else if (operator === "/") {
+            number = (parseInt(newNumber, 10) / parseInt(number, 10)).toString(10);
+        } else if (operator === "*") {
+            number = (parseInt(newNumber, 10) * parseInt(number, 10)).toString(10);
+        }
+
+        totalDiv.text(number);
+        testNumLength(number);
+        number = "";
+        newNumber = "";
+    });
+
 });
-
-
-
