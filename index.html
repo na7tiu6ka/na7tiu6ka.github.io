@@ -8,9 +8,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
-		<!-- Flex Slider CSS -->
-		<link rel="stylesheet" href="carousel/css/flexslider.css" type="text/css" media="screen" />
-		<!-- for srcoll to top -->
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
 
 		<link rel="icon" href="img/icon.ico">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -20,8 +18,13 @@
 		<script type="text/javascript" src="js/blur.js"></script>
 		<script type="text/javascript" src="js/validateForm.js"></script>
 		<script type="text/javascript" src="js/createEmailSending.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
+		<!-- Not script  -->
+		<link rel="stylesheet" href="css/noJS.css">
+
 		<!-- Modernizr -->
   		<!--<script src="/carousel/js/modernizr.js"></script> -->
+
 		<!-- Scroll, Cover Blur, Form Validation, Email Sending -->
 		<script>
 		$(document).ready(
@@ -83,44 +86,69 @@
 
 			<div id="work">
 				<div class="work1">
-					<div class="flexslider">
-  						<ul class="slides">
+  						<ul id="da-thumbs" class="da-thumbs">
   							<li>
-  								<a href="http://el4anes.ucoz.com/" target="_blank"><img src="work/img-links/elia.png"></a>
+  								<a href="http://el4anes.ucoz.com/" target="_blank">
+  									<img src="work/img-links/elia.png">
+  									<div class="fontSize"><span>Elie's Personal Porfolio</span></div>
+  								</a>
   							</li>
   							<li>
-  								<a href="work/battleship/battleship.html" target="_blank"><img src="work/battleship/img/battleship.png"></a>
+  								<a href="work/battleship/battleship.html" target="_blank">
+  									<img src="work/battleship/img/battleship.png">
+  									<div class="fontSize"><span>Battleship Game</span></div>
+  								</a>
   							</li>
 
   							<li>
-  								<a href="work/snake/snake-game.html" target="_blank"><img src="work/snake/img/snake.png"></a>
+  								<a href="work/snake/snake-game.html" target="_blank">
+  									<img src="work/snake/img/snake.png">
+  									<div class="fontSize"><span>The Snake Game</span></div>
+  								</a>
   							</li>
   							<li>
-  								<a href="work/envelope/contactform.html" target="_blank"><img src="work/envelope/img/envelope.png"></a>
+  								<a href="work/pacman/pacman.html" target="_blank">
+  									<img src="work/pacman/img/pacman.png">
+  									<div class="fontSize"><span>CSS3 Pacman Animation </span></div>
+  								</a>
   							</li>
   							<li>
-  								<a href="work/pacman/pacman.html" target="_blank"><img src="work/pacman/img/pacman.png"></a>
+  								<a href="work/clock/clock.html" target="_blank">
+  									<img src="work/clock/img/dateTime.png">
+  									<div class="fontSize"><span>Date &amp; Time</span></div>
+  								</a>
   							</li>
   							<li>
-  								<a href="work/clock/clock.html" target="_blank"><img src="work/clock/img/dateTime.png"></a>
-  							</li>
-  							<li>
-  								<a href="work/orbit/orbit.html" target="_blank"><img src="work/orbit/img/orbit.png"></a>
+  								<a href="work/orbit/orbit.html" target="_blank">
+  									<img src="work/orbit/img/orbit.png">
+  									<div class="fontSize"><span>CSS3 Orbit Animation</span></div>
+  								</a>
   							</li>
 						    <li>
-							    <a href="work/calculator/calculator.html" target="_blank"><img src="work/calculator/img/calculator.png"></a>
+							    <a href="work/calculator/calculator.html" target="_blank">
+							    	<img src="work/calculator/img/calculator.png">
+							    	<div class="fontSize"><span>Simple Calculator</span></div>
+							    </a>
 						    </li>
 						    <li>
-							    <a href="work/dashProject/game.html" target="_blank"><img src="work/dashProject/img/game.png"></a>
+							    <a href="work/dashProject/game.html" target="_blank">
+							    	<img src="work/dashProject/img/game.png">
+							    	<div class="fontSize"><span>Simple Madlibs Game</span></div>
+							    </a>
 						    </li>
 						    <li>
-								<a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-blog-theme" target="_blank"><img src="work/dashProject/img/blog.png"></a>
+								<a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-blog-theme" target="_blank">
+									<img src="work/dashProject/img/blog.png">
+									<div class="fontSize"><span>Dash Project: Blog Theme</span></div>
+								</a>
 							</li>
 						    <li>
-							    <a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-business-website" target="_blank"><img src="work/dashProject/img/purrfect.png"></a>
+							    <a href="https://dash.generalassemb.ly/na7tiu6ka/build-your-own-business-website" target="_blank">
+							    	<img src="work/dashProject/img/purrfect.png">
+							    	<div class="fontSize"><span>Dash Project: Business Website</span></div>
+							    </a>
 						    </li>
 						</ul>
-					</div>
 				</div>
 			</div>
 
@@ -169,26 +197,6 @@
 			&#097;&#110;&#097;&#115;&#116;&#097;&#115;&#105;&#106;&#097;&#046;&#115;&#099;&#101;&#112;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
 		</div>
 
-		  <!-- FlexSlider -->
-		  <script defer src="carousel/js/jquery.flexslider.js"></script>
-
-		  <script>
-		    $(function(){
-		      SyntaxHighlighter.all();
-		    });
-		    $(window).load(function(){
-		      $('.flexslider').flexslider({
-		        animation: "slide",
-		        animationLoop: false,
-		        itemWidth: 210,
-		        itemMargin: 5,
-		        pausePlay: true,
-		        start: function(slider){
-		          $('body').removeClass('loading');
-		        }
-		      });
-		    });
-		  </script>
 
 		<!-- Syntax Highlighter -->
 		<script type="text/javascript" src="carousel/js/shCore.js"></script>
@@ -199,6 +207,15 @@
 		<script src="carousel/js/jquery.easing.js"></script>
 		<script src="carousel/js/jquery.mousewheel.js"></script>
 		<script defer src="carousel/js/demo.js"></script>
+
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
 
 	</body>
 </html>

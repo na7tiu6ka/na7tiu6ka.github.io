@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 /* ------------- MAIN SECTION ------------- */
 
 html,
@@ -163,6 +165,37 @@ section {
 	height: 35%;
 }
 
+
+/* Direction aware CSS */
+.da-thumbs li {
+	margin: 5px;
+	background: #fff;
+	padding: 5px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: rgba(55,55,55,0.7);
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	padding-top: 35px; 
+}
+
+.fontSize {
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+
+}
 
 /* ------------- CONTACT SECTION ------------- */
 
