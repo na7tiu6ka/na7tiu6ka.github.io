@@ -137,7 +137,7 @@ h3 {
 	width: 240px;
 	height: 240px;
 	margin: 0 0 60px 0;
-	border: 2px solid #595959;
+	border: 2px solid #000000;
 	border-radius: 100%;
 }
 
@@ -169,8 +169,8 @@ section {
 /* Direction aware CSS */
 .da-thumbs li {
 	margin: 5px;
-	background: #fff;
-	padding: 5px;
+	background: rgba(73, 73, 73, 0.3);
+	padding: 6px;
 	position: relative;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
@@ -188,7 +188,6 @@ section {
 	width: 100%;
 	height: 100%;
 	color: #ffffff;
-	padding-top: 35px; 
 }
 
 .fontSize {
@@ -319,12 +318,16 @@ textarea {
 	width: 45px;
 	height: 58px;
 	margin: 0 2px;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%);
+  	-webkit-transition: .5s;
+  	transition: .5s;
 }
 
 /* icon hover effect */
 .socialMedia img:hover {
-	    filter: alpha(opacity=90);
-		opacity: .7;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(0%);
 }
 
 .copyright {
