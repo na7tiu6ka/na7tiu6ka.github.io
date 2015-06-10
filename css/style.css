@@ -169,7 +169,7 @@ section {
 /* Direction aware CSS */
 .da-thumbs li {
 	margin: 5px;
-	background: rgba(48, 48, 48, 0.55);
+	background: rgba(144, 144, 145, 0.55);
 	padding: 6px;
 	position: relative;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
