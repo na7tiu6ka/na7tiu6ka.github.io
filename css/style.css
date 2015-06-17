@@ -73,7 +73,7 @@ h3 {
 	text-align: center;
 	overflow: hidden;
 	height: 560px;
-	background: url('../img/deskCover.jpg') center no-repeat;
+	background: url('../img/hand-mac.jpg') center no-repeat;
 	position: relative;
 	background-size: cover;
 	border-bottom: 2px solid #595959;
@@ -92,7 +92,7 @@ h3 {
     right: 0;
     left: 0;
     bottom: 0;
-	background: url('../img/deskCoverBlur.jpg') center no-repeat;
+	background: url('../img/hand-macBlur.jpg') center no-repeat;
 	background-size: cover; 
 	z-index: 0;
     opacity: 0;
