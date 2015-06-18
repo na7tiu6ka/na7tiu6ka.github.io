@@ -318,14 +318,6 @@ textarea {
 	width: 45px;
 	height: 58px;
 	margin: 0 2px;
-  	-webkit-filter: grayscale(70%);
-  	-webkit-transition: .5s;
-  	transition: .5s;
-}
-
-/* icon hover effect */
-.socialMedia img:hover {
-  	-webkit-filter: grayscale(0%);
 }
 
 .copyright {
