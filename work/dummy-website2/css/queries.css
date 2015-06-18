@@ -18,7 +18,8 @@
 	}
 }
 
-@media (max-width: 1680px) {
+
+@media (max-width: 1920px) and (min-width: 1200px) {
 	.push-r {
 		padding-right: 25px;
 	}
