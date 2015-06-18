@@ -314,10 +314,19 @@ textarea {
 	margin: 20px 1px;
 }
 
-.socialMedia img {
-	width: 45px;
-	height: 58px;
+.socialMedia .fa {
+	font-size: 32px;
 	margin: 0 2px;
+	-o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.socialMedia .fa:hover {
+	color: #CA8CB3;
 }
 
 .copyright {
