@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="keywords" content="web design, web development, designer, developer, html5, css3, JavaScript, JQuery, contact, portfolio, work, Anastasija Scepak, responsive design">
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML5, CCS3, JavaScript, JQuery, Front End Web Development, Web Design, Web Development">
+		<meta name="author" content="Anastasija Scepak">
 		<title>Anastasija Scepak | Web Developer/Designer</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Alegreya+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
@@ -76,11 +78,12 @@
 
 					<section class="secondColumn">
 						<div class="aboutMe"><h2>About me</h2></div>
-						<p>Hello, I'm Anastasija Scepak. A web developer/designer, currently located in United Kingdom. I'm a passionate web developer/designer who likes to think out of the box and use my imagination while drafting, sketching and developing/designing beautiful, yet interesting websites.
+						<p id="greeting"></p>
+						<p>I'm Anastasija Scepak. A front end web developer/designer, currently located in United Kingdom. I'm a passionate front end web developer/designer who likes to think out of the box and use my imagination while drafting, sketching and developing/designing beautiful, yet interesting websites.
 						<br>
-						<br>I've graduated as a bachelor in philology from Vilnius University (Kaunas Faculty of Humanities) in 2013. I always was interested in web design/development, but was afraid to start it. To become a web developer/designer I was encouraged by my family, boyfriend and friends before graduating. But at that moment my mind was set at becoming a translator.
+						<br>I've graduated as a bachelor in philology from Vilnius University (Kaunas Faculty of Humanities) in 2013. I always was interested in web design/development, but was afraid to start it. In becomimng a front end web developer/designer I was encouraged by my partner before graduating. But at that moment my mind was set at becoming a translator.
 						<br>
-						<br>After doing freelance translations I understood that don't want to do it anymore and decided to go for web designer/developer job. My very first experience of making a website was when I was 13 years old. I didn't know what I was doing and there was no decent design, still that experience helped me in studying web design and web development on online courses.
+						<br>After doing freelance translations I understood that don't want to do it anymore and decided to go for front end web design/development. My very first experience of making a website was when I was 13 years old. I didn't know what I was doing and there was no decent design, still that experience helped me in studying online courses in front end web design/development.
 						<br>If you'd like to follow me on Twitter, my user name is <a href="http://www.twitter.com/na7tiu6ka" target="_blank">@na7tiu6ka</a>.</p>
 					</section>
 				</div>
@@ -223,6 +226,20 @@
 				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
 
 			});
+		</script>
+		<script type="text/javascript">
+
+		var hr = (new Date()).getHours();
+
+			if (hr >= 5 && hr <  12) {
+			  $('#greeting').html('Good moring,');
+			} if (hr >= 12 && hr <  18) {
+			  $('#greeting').html('Good afternoon,');
+			} if (hr >= 18 && hr <=  24) {
+			  $('#greeting').html('Good evening,');
+			} if (hr > 0 && hr <  5) {
+			  $('#greeting').html("Hello,");
+			}    
 		</script>
 
 	</body>
