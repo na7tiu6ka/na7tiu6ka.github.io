@@ -152,8 +152,9 @@ section {
 /* ------------- WORK SECTION ------------- */
 
 #work {
+	margin: 0 auto;
 	width: 100%;
-	padding: 50px 0;
+	padding: 20px 0;
 	background-color: #F2F3F4;
 	border-bottom: 1px solid #595959;
 	height: 100%;
@@ -178,6 +179,7 @@ section {
 .da-thumbs li a img {
 	display: block;
 	position: relative;
+	width: 100%;
 }
 .da-thumbs li a {
 	overflow: hidden;
