@@ -199,10 +199,10 @@ html {
     position: absolute;
     top: 0;
     left: 50%;
-    height: 120px;
-    width: 120px;
-    margin-top: -65px;
-    margin-left: -65px;
+    height: 69px;
+    width: 130px;
+    margin-top: -40px;
+    margin-left: -40px;
     padding: 5px;
     border-radius: 50%;
 }
@@ -297,8 +297,8 @@ html {
     position: absolute;
     top: 25%;
     left: 25%;
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
     margin-left: -300px;
     margin-top: -270px;
     -webkit-transform: rotate(345deg);
