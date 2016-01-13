@@ -132,10 +132,11 @@ section {
 #about {
     padding: 10px 0;
     background-color: #FFF;
+    padding: 5px;
 }
 .about1 {
     margin: 1% auto;
-    max-width: 75%;
+    max-width: 85%;
     height: 100%;
 }
 .aboutMe h2 {
@@ -145,12 +146,20 @@ section {
     display: block;
     width: 240px;
     height: 240px;
-    margin: 0 0 60px;
+    margin: 0 35px 15px 60px;
     border-radius: 100%;
+    padding: 10px;
+    float: right;
 }
 
 #about p {
-    font-size: .85em;
+    font-size: .90em;
+    padding: 5px 25px;
+    text-align: justify;
+}
+
+p#greeting {
+    font-size: 1.2em;
 }
 
 /* SKILLS */
@@ -186,7 +195,7 @@ section {
     position:absolute;
     top:0;
     left:0;
-    width:115px;
+    width:105px;
     font-weight:bold;
     font-size:13px;
     color:#ffffff;
@@ -202,7 +211,7 @@ section {
 .skillbar-title span {
     display:block;
     background:rgba(0, 0, 0, 0.1);
-    padding: 0 5px;
+    padding: 0;
     height:25px;
     line-height:25px;
     -webkit-border-top-left-radius:3px;
