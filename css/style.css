@@ -47,30 +47,7 @@ h3 {
     font-size: 1.1em;
 }
 
-.borderNav {
-    margin-top: 5%;
-    background-color: rgba(0, 0, 0, .4);
-    display: inline-block;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    color: #FBFCFE;
-    border: 3px solid rgba(0, 0, 0, .5);
-    padding: .4em 2em;
-    z-index: 2;
-}
-
-.quote {
-    color: #F0EBEB;
-    font-family: 'IM Fell French Canon', serif;
-    font-style: italic;
-}
-
-#wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
+/* scroller style */
 #scrollUp {
     bottom: 20px;
     right: 20px;
@@ -83,6 +60,27 @@ h3 {
     filter: alpha(opacity=90);
     opacity: .7;
 }
+
+/* HEADER */
+
+.borderNav {
+    margin-top: 12%;
+    background-color: rgba(0, 0, 0, .4);
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #FBFCFE;
+    border: 3px solid rgba(0, 0, 0, .5);
+    padding: .4em 2em;
+    z-index: 2;
+}
+
+#wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 
 #header {
     width: 100%;
@@ -110,14 +108,15 @@ section {
     z-index: 1;
 }
 
-.overlay {
+/*.overlay {
     right: 0;
     bottom: 0;
     background: url(../img/hand-macBlur.jpg) center no-repeat;
     background-size: cover;
     z-index: 0;
     opacity: 0;
-}
+}*/
+
 .layer {
     background-color: rgba(230, 230, 230, .3);
     width: 100%;
@@ -440,6 +439,17 @@ ul li {
 a {
     text-decoration: none;
     color: rgba(121, 116, 124, .95);
+    -o-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -khtml-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #CA8CB3;
 }
 
 nav a,
