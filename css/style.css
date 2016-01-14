@@ -86,8 +86,8 @@ h3 {
     width: 100%;
     text-align: center;
     height: 560px;
-    background: url(../img/hand-mac.jpg) center no-repeat;
-    background-size: cover;
+   /* background: url(../img/hand-mac.jpg) center no-repeat;
+    background-size: cover;*/
 }
 
 .coverNav,
@@ -98,32 +98,44 @@ h3 {
     left: 0;
 }
 
-#contact,
-section {
+#contact {
     text-align: justify
 }
+
 .coverNav {
     right: 0;
     bottom: 0;
     z-index: 1;
 }
 
-/*.overlay {
-    right: 0;
-    bottom: 0;
-    background: url(../img/hand-macBlur.jpg) center no-repeat;
-    background-size: cover;
-    z-index: 0;
-    opacity: 0;
-}*/
-
 .layer {
     background-color: rgba(230, 230, 230, .3);
     width: 100%;
     height: 100%;
 }
+
 #header h1 {
     padding-top: 12%;
+}
+
+/* video cover */
+.media-container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cover {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* ABOUT SECTION */
@@ -470,19 +482,7 @@ nav a:hover {
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 485px) {
-    .firstColumn {
-        width: 20em;
-        float: left;
-    }
-    .secondColulmn {
-        width: 40em;
-        float: right;
-        margin-right: 5%;
-    }
-    .firstColumn,
-    .secondColulmn {
-        margin-bottom: 20px;
-    }
+
     .btn-submit-txt {
         margin: 0 auto;
         font-style: italic;
@@ -509,3 +509,19 @@ nav a:hover {
         float: left;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    #header {
+        width: 100%;
+        text-align: center;
+        height: 360px;
+        background: url(../img/hand-mac.jpg) center no-repeat;
+        background-size: cover;
+    }
+
+    .cover {
+        display: none;
+    }
+}
+
+
