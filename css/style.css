@@ -258,6 +258,12 @@ p#greeting {
     height: auto;
 }
 
+.work1 span p {
+    margin-top: 22px;
+    font-size: 22px;
+    font-family: Lobster, cursive;
+}
+
 .da-thumbs li {
     margin: 4px;
     background: rgba(144, 144, 145, .55);
@@ -282,7 +288,7 @@ p#greeting {
 }
 
 .fontSize {
-    font-size: 26px;
+    font-size: 22px;
     font-family: Lobster, cursive;
 }
 
