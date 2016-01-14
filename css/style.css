@@ -65,7 +65,7 @@ h3 {
 
 .borderNav {
 /*    margin-top: 6%;*/
-    background-color: rgba(0, 0, 0, .45);
+    background-color: rgba(10, 10, 10, .35);
     display: inline-block;
     text-align: center;
     top: 0;
@@ -134,7 +134,7 @@ h3 {
 .cover {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     width: auto;
     min-width: 100%;
