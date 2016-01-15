@@ -407,6 +407,7 @@ nav a:hover, a:focus {
     filter: alpha(opacity=80);
     opacity: .9;
     text-decoration: none;
+    color: rgba(223, 185, 209, .95);
 }
 
 /* MEDIA QUERIES */
