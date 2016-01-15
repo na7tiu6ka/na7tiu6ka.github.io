@@ -153,14 +153,17 @@ h3 {
     background-color: #FFF;
     padding: 5px;
 }
+
 .about1 {
     margin: 1% auto;
     max-width: 85%;
     height: 100%;
 }
+
 .aboutMe h2 {
     margin: 0 auto;
 }
+
 .profilePhoto {
     display: block;
     width: 240px;
@@ -172,7 +175,7 @@ h3 {
 }
 
 #about p {
-    font-size: .90em;
+    font-size: .95em;
     padding: 5px 25px;
     text-align: justify;
 }
