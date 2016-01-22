@@ -1,246 +1,276 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Lorem Ipsum</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
 
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="icon" href="assets/favicon.ico">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/other.css">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/scroll.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+<head>
 
-		<script>
-			$(document).ready(function() {
-			   	createScroll();
-			   	$('.carousel').carousel({
-			       	interval: 3000
-			});
-			});	
-		</script>			
-	</head>
-	<body>
-		<header>
-			<nav class="navigation">
-				<a class="logo-link" href="#"><i class="fa fa-file-code-o"></i></a>
-				<ul>
-					<li>01234 567 890</li>
-					<li><a href="#"><i class="fa fa-search"></i></a></li>
-					<li><a href="#this"><i class="fa fa-align-justify"></i></a></li>
-				</ul>
-			</nav>
-			
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				  </ol>
-				 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner">
-				    <div class="item active">
-				      <div class="cover-photo"><img src="assets/people.jpg"></div>
-				      <div class="carousel-caption">
-				          <h3>Lorem Ipsum &amp; Dolor sit amet</h3>
-				          <h4><a href="#this"><i class="fa fa-angle-double-down"></i></a></h4>
-				      </div>
-				    </div>
-				    <div class="item">
-				      <div class="cover-photo"><img src="assets/laptop2.jpg"></div>
-				      <div class="carousel-caption">
-				          <h3>Consectetur adipiscing elit &amp; Duis aute irure dolor</h3>
-				          <h4><a href="#this"><i class="fa fa-angle-double-down"></i></a></h4>
-				      </div>
-				    </div>
-				  </div>
-				 
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left"></span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right"></span>
-				  </a>
-				</div> <!-- Carousel -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Lorem Ipsum</title>
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Lorem Ipsum</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <hr>
+                <p>Donec tellus libero, facilisis non sollicitudin id, interdum nec ante. Cras sed molestie urna. Curabitur accumsan velit sodales venenatis hendrerit.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Lorem</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Nullam id ultricies turpis</h2>
+                    <hr class="light">
+                    <p class="text-faded">Proin in consequat mi, non aliquam massa. Nunc rutrum tellus eu dolor gravida, at interdum lorem gravida. Maecenas tristique accumsan urna eu placerat. Donec est tellus, tempor eget enim ut, pretium facilisis purus.</p>
+                    <a href="#" class="btn btn-default btn-xl">Lorem</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Curabitur Tincidunt</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <h3>Sed Interdum</h3>
+                        <p class="text-muted">Donec tellus libero, facilisis non sollicitudin id.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Eros Leo</h3>
+                        <p class="text-muted">Nullam at pharetra nisi. Nunc id sem odio.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>A Ultrices Arcu</h3>
+                        <p class="text-muted">Proin in consequat mi, non aliquam massa.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Accumsan Quis</h3>
+                        <p class="text-muted">Fusce congue elit ex, et tincidunt dui euismod nec.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-			</header>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Mauris ultricies!</h2>
+                    <hr class="primary">
+                    <p>Pellentesque quis neque ac justo suscipit dictum sit amet euismod risus.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:email@email.com">email@email.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<div class="wrapper">
-			<div id="this"></div>
-			<div class="row">
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link">
-						<div class="laptop">
-							<div class="laptop-bg">
-								<img src="assets/laptop.jpg">
-								<p><a href="#">Lorem Ipsum</a><p>
-							</div>
-						</div>
-					</div>
-				</div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link">
-						<div class="people">
-							<div class="people-bg">
-								<img src="assets/people-work.jpg">
-								<p><a href="#">Ex ignota</a><p>
-							</div>
-						</div>
-					</div>
-				</div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link">	
-						<div class="camera">
-							<div class="camera-bg">
-								<img src="assets/camera.jpg">
-								<p><a href="#">Eu sed periculis</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
 
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link"> 
-						<div class="kindle">
-							<div class="kindle-bg">
-								<img src="assets/kindle.jpg">
-								<p><a href="#">Usu placerat</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
 
-			<div class="row">
-				<div class="grayscale-link">
-					<div class="col-xs-6 col-sm-3 col-md-3">
-						<div class="city">
-							<div class="city-bg">
-								<img src="assets/city.jpg">
-								<p><a href="#">Ea quo ferri</a><p>
-							</div>	
-						</div>
-					</div>
-				</div>
+</body>
 
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link">
-						<div class="headphones">
-							<div class="headphones-bg">
-								<img src="assets/headphones.jpg">
-								<p><a href="#">Tempor probatus</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link">
-						<div class="train">
-							<div class="train-bg">
-								<img src="assets/train.jpg">
-								<p><a href="#">Has cetero</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="grayscale-link">
-						<div class="paper">
-							<div class="paper-bg">
-								<img src="assets/paper.jpg">
-								<p><a href="#">Cum at nonumy</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="useful">
-			<div class="row">
-				<div class="links">
-					<div class="col-md-2">
-						<p>Useful Links</p>
-						<ol>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Curriculum</a></li>
-							<li><a href="#">Academic</a></li>
-							<li><a href="#">Pastoral Support</a></li>
-							<li><a href="#">Extra Curricular</a></li>
-							<li><a href="#">Addmissions</a></li>
-							<li><a href="#">Parents</a></li>
-						</ol>
-					</div>
-					<div class="col-md-2">		
-						<ol class="move-down">
-							<li><a href="#">Latest News</a></li>
-							<li><a href="#">Calendar Events</a></li>
-							<li><a href="#">Galleries</a></li>
-							<li><a href="#">Clubs &amp;</a></li>
-							<li><a href="#">Communication</a></li>
-							<li><a href="#">Policies</a></li>
-							<li><a href="#">Sitemap</a></li>
-						</ol>
-					</div>	
-
-					<div class="col-md-2">		
-						<p>Contact Information</p>
-						<ol>
-							<li>Company Name</li>
-							<li>Adress Line 1</li>
-							<li>Adress line 2</li>
-							<li>Town/City</li>
-							<li>County</li>
-							<li>Country</li>
-							<li>Postcode</li>
-						</ol>
-					</div>	
-
-					<div class="col-md-2">	
-						<ol class="move-down">
-							<li class="toUppercase">Tel</li>
-							<li>01234 567 890</li>
-							<br>
-							<li class="toUppercase">Email</li>
-							<li><a href="mailto:email@emailaddress.com<">email@emailaddress.com</a></li>
-						</ol>
-					</div>
-				</div>		
-
-					<div class="col-md-4">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6385.826109676955!2d-2.8944822910646244!3d53.19306668673113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ac1d9629cf569%3A0x49626cb38dd8f89f!2sChester%2C+Cheshire+West+and+Chester!5e0!3m2!1sen!2suk!4v1436802882819" width="530" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
-				</div>	
-			</div>
-		</div>
-	</body>
-
-	<footer>
-		<div class="row">
-			<div class="col-md-4">	
-				<div class="social">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-google-plus"></i></a>
-				</div>
-			</div>
-
-			<div class="col-md-offset-4 col-md-4">	
-				<div class="copyright">Copyright &copy; 2015 | Lorem Ipsum</div>
-			</div>	
-		</div>
-	</footer>
 </html>
