@@ -82,8 +82,6 @@ header {
     text-align: center;
     color: #fff;
     background-color: #9c6b7b;
-
-
 }
 
 header .container {
@@ -384,6 +382,7 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #2d0614;
+    
 }
 
 .btn-social {
