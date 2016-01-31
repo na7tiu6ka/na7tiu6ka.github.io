@@ -33,7 +33,7 @@ $(function() {
                           'type': 'to'
                       }],
                       'autotext': 'true',
-                      'subject': 'Message from portfolio website',
+                      'subject': 'Message From StacieDesign',
                       'html': message
                     }
                 },
