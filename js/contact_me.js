@@ -1,5 +1,15 @@
 $(function() {
-
+    var abc = function(a) {
+        var h = [1, 66, 13];
+        var s = 0;
+        var r = "";
+        for(var i = 0; i < a.length; i++) {
+            var c = s++ % h.length;
+            var ch = a.charCodeAt(i);
+            r += String.fromCharCode(ch + h[c]);
+        }
+        return r;
+    };
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -15,7 +25,8 @@ $(function() {
             var email = $("input#email").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
-            var myFullEmail = $('.mea').html().trim();
+            var ea = $('.mea').html().trim();
+            ea = abc(ea);
 
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
@@ -29,7 +40,7 @@ $(function() {
                       'from_email': email,
                       'from_name': name,
                       'to': [{
-                          'email': myFullEmail,
+                          'email': ea,
                           'type': 'to'
                       }],
                       'autotext': 'true',
