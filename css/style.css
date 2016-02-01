@@ -241,6 +241,7 @@ section.success a.active {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border: 1px solid #2d0614;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -382,7 +383,7 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #2d0614;
-    
+
 }
 
 .btn-social {
