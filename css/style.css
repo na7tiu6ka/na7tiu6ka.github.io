@@ -435,8 +435,16 @@ footer .footer-below {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 10px;
+    background-color: rgba(234, 110, 151, 0.9);
+    border-color: rgba(132, 44, 73, 0.9);
+}
+
+.scroll-top .btn:hover {
+    background-color: rgba(253, 0, 84, 0.75);
+    border-color: rgba(78, 3, 28, 0.75);
 }
 
 .scroll-top .btn:focus {
