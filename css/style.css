@@ -438,8 +438,8 @@ footer .footer-below {
     font-size: 25px;
     line-height: 25px;
     padding: 10px;
-    background-color: rgba(234, 110, 151, 0.9);
-    border-color: rgba(132, 44, 73, 0.9);
+    background-color: rgba(234, 110, 151, 0.95);
+    border-color: rgba(132, 44, 73, 0.95);
 }
 
 .scroll-top .btn:hover {
