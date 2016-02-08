@@ -39,7 +39,7 @@ hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    max-width: 350px;
+    max-width: 450px;
     border: 0;
     border-top: solid 2px;
     text-align: center;
@@ -50,7 +50,7 @@ hr.star-primary:after {
     content:  "\f006";
     display: inline-block;
     position: relative;
-    top: -.8em;
+    top: -.7em;
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
@@ -78,46 +78,46 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-header {
+#header {
     text-align: center;
     color: #fff;
-    background-color: #9c6b7b;
+    background-color: rgb(156, 107, 123); 
 }
 
-header .container {
+#header .container {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-header img {
+#header img {
     display: block;
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+#header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: 'Apple Chancery', 'Dancing Script', cursive;;
+    font-size: 3.5em;
+    font-weight: 800;
 }
 
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
+#header .intro-text .skills {
+    font-size: 2.25em;
+    font-weight: 800;
+    font-family: 'Apple Chancery', 'Dancing Script', cursive;
 }
-
+   
 @media(min-width:768px) {
-    header .container {
+    #header .container {
         padding-top: 200px;
         padding-bottom: 100px;
     }
 
-    header .intro-text .name {
+    #header .intro-text .name {
         font-size: 3.4em;
     }
 
-    header .intro-text .skills {
+    #header .intro-text .skills {
         font-size: 1.75em;
     }
 }
@@ -143,6 +143,12 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+}
+
+@media(max-width:768px) {
+    #background {
+        display: none;
     }
 }
 
