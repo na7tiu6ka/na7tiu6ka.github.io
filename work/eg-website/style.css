@@ -1,10 +1,7 @@
-html {
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-}
-
 body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     background-color: #f2efe8;
     color: #5c605f;
     font-family: 'Amiri', serif;
@@ -41,13 +38,14 @@ body {
 
 #container {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 670px;
     padding-bottom: 80px;
 }
 
 #container a img {
-    max-width: 94%;
-    margin: 0 10px 25px;
+    width: 100%;
+    margin: 0 10px 30px;
+    border: solid 1px #5c605f;
     -webkit-filter: grayscale(65%);
     filter: grayscale(65%);
     transition: 0.4s
