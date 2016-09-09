@@ -1,0 +1,140 @@
+body {
+    background-color: #efefef;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-home {
+    margin-left: 35px;
+    font-size: 48px;
+    color: #fff;
+}
+
+
+header {
+    height: 115px;
+    background: #487800;
+    position: relative;
+    border-bottom: 1px solid #666666;
+}
+
+nav {
+    margin-top: 45px;
+    margin-right: 82px;
+    float: right;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #efefef;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.healthy-food {
+    margin: 10px auto 5px;
+    border: 1px solid #000;
+}
+
+.higher {
+    margin-top: -2px;
+}
+
+.description {
+    text-align: center;
+    width: 156px;
+    margin: 0 auto;
+    font-family: georgia;
+}
+
+.description h3 {
+    font-size: 21px;
+}
+
+.description p {
+    font-size: 12px;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.map-img {
+    background: url(../img/Screen%20Shot%202016-07-14%20at%2012.39.29%20PM.png);
+    max-width: 100%;
+    height: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.distance-margin {
+    margin: 35px;
+}
+
+.bigger-bold {
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.contact-details {
+    font-size: 20px;
+}
+
+.healthy-img {
+    background: url(../img/pexels-photo-60792.jpeg);
+    max-width: 100%;
+    height: 245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.healthy-cheap h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    padding-top: 65px;
+    background: rgba(0,0,0, .55);
+    height: 245px;
+}
+
+
+.personalised {
+    font-size: 48px;
+    color: #666666;
+}
+
+.text-changes {
+    text-align: justify;
+    font-family: georgia;
+}
+
+
+footer {
+    max-width: 100%;
+    background-color: #487800;
+    height: 75px;
+}
+
+footer p {
+    padding-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
