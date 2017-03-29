@@ -9,13 +9,14 @@
     <meta name="description" content="Portfolio of a Front End Web Developer">
     <meta name="author" content="Anastasija Scepak">
 
-    <title>Anastasija Scepak | Front End Web Developer/Designer</title>
+    <title>Stacie Scepak | Front End Web Developer/Designer</title>
     <!-- favicon -->
     <link rel="icon" href="img/favicon.ico">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">    
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -47,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Anastasija Scepak</a>
+                <a class="navbar-brand" href="#page-top">Stacie Scepak</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,10 +58,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -78,9 +79,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-centered" src="img/sd.png" alt="">
+                    <img class="img-responsive img-centered" src="img/logo.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Anastasija Scepak</span>
+                        <span class="name">Stacie Scepak</span>
                         <hr class="star-light">
                         <span class="skills">Front End Web Developer/Designer</span>
                     </div>
@@ -89,6 +90,33 @@
         </div>
             
     </div>
+    
+ <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-circle img-centered profile-photo" src="img/profile.jpg" alt="">
+                    <h2>About</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1">
+                    <p id="greeting"></p>
+
+                    <p>I'm Anastasija, but usually I introduce myself as Stacie. Originally I come from Lithuania, where I've graduated from Vilnius University as a translator. I've always had a keen interested in web development &amp; design, but was too afraid to learn it.
+                    <br>At the end of 2013 I have started my journey as a Front End Web Developer/Designer.
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <p>I'm a passionate Front End Web Developer/Designer who enjoys building interesting and high quality websites.<br>I like to think out of the box and use imagination while drafting, sketching and designing beautiful yet simple websites.<br>Besides being interested in web development &amp; design, I really enjoy photography, reading books, playing violin, travelling and exploring new places.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -96,11 +124,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="color-change">Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -111,7 +139,7 @@
                     </a>
                 </div>
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -122,7 +150,7 @@
                     </a>
                 </div>
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -133,7 +161,7 @@
                     </a>
                 </div>
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -144,7 +172,7 @@
                     </a>
                 </div>                 
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -155,18 +183,7 @@
                     </a>
                 </div> 
                 
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/twitch.png" class="img-responsive" alt="">
-                    </a>
-                </div> 
-                
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -177,7 +194,7 @@
                     </a>
                 </div> 
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -188,7 +205,7 @@
                     </a>
                 </div> 
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -200,7 +217,7 @@
                 </div>                      
                     
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -211,7 +228,7 @@
                     </a>
                 </div>                      
                     
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -222,7 +239,7 @@
                     </a>
                 </div>                
                 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -232,7 +249,7 @@
                         <img src="img/portfolio/nice-and-fluffy.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -242,7 +259,7 @@
                         <img src="img/portfolio/dummy-page1.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -252,7 +269,7 @@
                         <img src="img/portfolio/dummy-page2.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -262,7 +279,7 @@
                         <img src="img/portfolio/dummy-page3.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal16" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -272,7 +289,7 @@
                         <img src="img/portfolio/battleship.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal17" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -283,7 +300,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal18" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -294,7 +311,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal19" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -305,7 +322,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal20" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -318,35 +335,28 @@
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
+    
+    <!-- Contact Section -->
+        <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-circle img-centered profile-photo" src="img/profile.jpg" alt="">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2 class="color-change">Get In Touch</h2>
+                    <hr class="star-primary">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p id="greeting"></p>
-
-                    <p>I'm Anastasija, but usually I introduce myself as Stacie. Originally I come from Lithuania, where I've graduated from Vilnius University as a translator. I've always had a keen interested in web development &amp; design, but was too afraid to learn it.
-                    <br>At the end of 2013 I have started my journey as a Front End Web Developer/Designer.
-                    </p>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>+44 7583 049 544</p>
                 </div>
-                <div class="col-lg-4">
-                    <p>I'm a passionate Front End Web Developer/Designer who enjoys building interesting and high quality websites.<br>I like to think out of the box and use imagination while drafting, sketching and designing beautiful yet simple websites.<br>Besides being interested in web development &amp; design, I really enjoy photography, reading books, playing violin, travelling and exploring new places.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:anastasija.scepak@email.com">anastasija.scepak@email.com</a></p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
+    </section>    
+    
+<!--
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -392,6 +402,7 @@
             </div>
         </div>
     </section>
+-->
 
     <!-- Footer -->
     <footer class="text-center">
@@ -1164,6 +1175,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/wow.min.js"></script>    
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
