@@ -1,0 +1,105 @@
+body{
+  background-color: #fcfffb !important;
+	font-family: 'Nunito', sans-serif;
+	color: #000;
+}
+
+#container{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:50%;
+}
+#container h2{
+	text-align:center;
+	color:#045;
+}
+
+#quoteContainer{
+	width:75%;
+	padding:10px;
+	margin: 30px auto;
+	text-align: center;
+  height: 100%;
+  background: rgba(191, 191, 191, .4);
+  border-radius: 10px;
+}
+
+#quoteContainer p {
+  font-family: 'Gaegu', cursive;
+  font-size: 28px;
+}
+
+p#quoteGenius {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+}
+
+ul li {
+  display: inline
+}
+
+#buttonContainer{
+	width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+	text-align: center;
+}
+#quoteButton{
+  background: rgba(208, 240, 192, 0.4);
+	width:200px;
+	margin-top: 75px;
+	border:2px solid #9cc059;
+  border-radius: 10px;
+	color:#003312;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+  transition: 0.5s ease;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#d0f0c0;
+	color: #242721;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+
+.socialButtons {
+  font-size: 28px;
+  margin-top: -10px;
+}
+
+.socialButtons a {
+  color:#003312;
+  transition: 0.5s ease;
+}
+
+.socialButtons a:hover{
+	cursor:pointer;
+	color:#70991a;
+}
+.socialButtons a:active{
+	cursor: pointer;
+}
+
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
