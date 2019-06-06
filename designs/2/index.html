@@ -19,10 +19,10 @@
 				<div id="header">
 					<!-- <div class="col-xs-8 col-sm-12 col-md-12"> -->
 						<ul id="nav">
-							<li><a href="#">Link &#x23;1</a></li>
-							<li><a href="#">Link &#x23;2</a></li>
-							<li><a href="#">Link &#x23;3</a></li>
-							<li><a href="#">Link &#x23;4</a></li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Contact</a></li>
 						</ul>
 					<!-- </div> -->
 				</div>
@@ -83,11 +83,27 @@
 			<div class="img-section">
 				<div class="row">
 					<div id="slideshow">
-						<img class="col-xs-12 col-md-12 active" src="img/food-kitchen-cutting-board-cooking.jpg">
-						<img class="col-xs-12 col-md-12" src="img/kitchen-cutting-board-cooking-bell-pepper.jpg">
-						<img class="col-xs-12 col-md-12" src="img/food-salad-restaurant-person.jpg">	
-						<img class="col-xs-12 col-md-12" src="img/water-drink-glass-drinking.jpg">
-
+<!--
+                        <div class="col-xs-12 col-md-12">
+						  <img class="img-responsive" src="img/food-kitchen-cutting-board-cooking.jpg">
+                        </div>
+-->
+                        
+<!--
+                        <div class="col-xs-12 col-md-12">
+						  <img class="img-responsive" src="img/kitchen-cutting-board-cooking-bell-pepper.jpg">
+						</div>
+-->
+                            
+                        <div class="col-xs-12 col-md-12">    
+                            <img class="img-responsive" src="img/food-salad-restaurant-person.jpg">	
+						</div>
+                        
+<!--
+                        <div class="col-xs-12 col-md-12">
+                            <img class="img-responsive" src="img/water-drink-glass-drinking.jpg">
+                        </div>
+-->
 					</div>
 				</div>	
 			</div>
@@ -113,33 +129,23 @@
 						<a href="#"><i class="fa fa-twitter-square"></i></a>
 						<a href="#"><i class="fa fa-google-plus-square"></i></a>
 						<a href="#"><i class="fa fa-instagram"></i></a>
-						<div class="copyright">All Rights Reserved &copy; 2015</div>
+						<div class="copyright">All Rights Reserved &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</div>
 					</div>
 		</div>
 
 		</div>			
 
 	<script type="text/javascript">
-		function slideSwitch() {
-		    var $active = $('#slideshow IMG.active');
-
-		    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
-
-		    var $next =  $active.next().length ? $active.next()
-		        : $('#slideshow IMG:first');
-
-		    $active.addClass('last-active');
-		        
-		    $next.css({opacity: 0.0})
-		        .addClass('active')
-		        .animate({opacity: 1.0}, 900, function() {
-		            $active.removeClass('active last-active');
-		        });
-		}
-
-		$(function() {
-		    setInterval( "slideSwitch()", 2500 );
-		});
+//		$("#slideshow > div:gt(0)").hide();
+//
+//            setInterval(function() { 
+//              $('#slideshow > div:first')
+//                .fadeOut(1000)
+//                .next()
+//                .fadeIn(1000)
+//                .end()
+//                .appendTo('#slideshow');
+//            },  3000);
 	</script>	
 
 	</body>

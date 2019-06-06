@@ -45,6 +45,7 @@ ul li {
 
 #nav {
 	float: right;
+    text-transform: uppercase;
 }
 
 #header {
@@ -56,6 +57,7 @@ ul li {
 .section {
 	background-color: rgba(234, 230, 226, 0.6);
 	text-align: center;
+    padding: 20px;
 
 }
 
@@ -144,25 +146,24 @@ ol li {
 
 
 /* slides */
+
+/*
 #slideshow {
-    position:relative;
-    height:570px;
+  margin: 10px auto;
+  position: relative;
+  padding: 280px 0;
+
 }
 
-#slideshow img {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:8;
-}
-
-#slideshow img.active {
-    z-index:10;
-}
-
-#slideshow img.last-active {
-    z-index:9;
+#slideshow > div {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
 
 
+*/
 
