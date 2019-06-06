@@ -480,6 +480,10 @@ footer .footer-below {
     z-index: 2;
 }
 
+.modal-body {
+    top: 50px;
+}
+
 
 .portfolio-modal .close-modal {
     position: absolute;
@@ -522,9 +526,23 @@ footer .footer-below {
 }
 
 
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
+    }
+    
+    .modal-content {
+      height: auto;
+      min-height: 100%;
+      border-radius: 0;
     }
 }
 
